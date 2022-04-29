@@ -19,7 +19,7 @@ export const Wrapper = styled.div`
 
     & > a > button {
         border: none;
-        margin: 25px;
+        margin: 50px;
         cursor: pointer;
                 
         width: 155px;
@@ -46,11 +46,9 @@ export const Wrapper = styled.div`
     }
 
     & > a > button::before {
-        //position: absolute;
         content: ' ';
         display: inline-block;
         top: -50px;
-        //left: 5px;
         width: 5px;
         height: 70%;
         background-color: rgb(248 248 255);
@@ -88,9 +86,26 @@ export const Wrapper = styled.div`
         max-width: 250px;
         width: 100%; 
         filter: grayscale(90%);
-        
 
+    }
 
+    .primeiroTexto {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 15px;
+        margin-top: 150px;
+        font-size: 2rem;
+    }
+
+    .segundoTexto {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 15px;
+        margin-top: 35px;
+        margin-bottom: 50px;
+        font-size: 1.3rem;
     }
 
 
