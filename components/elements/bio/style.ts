@@ -22,9 +22,8 @@ export const Wrapper = styled.div`
         cursor: pointer;
                 
         width: 155px;
-        height: 55px;
+        height: 50px;
         border-radius: 5px;
-        padding: 10px 25px;
         font-size: 1.3rem;
         font-family: 'Cormorant Garamond', serif;
         background: var(--cor-bloco-claro);
@@ -50,7 +49,7 @@ export const Wrapper = styled.div`
         width: 5px;
         height: 50%;
         background-color: rgb(248 248 255);
-        animation: shiny-btn1 2.5s ease-in-out infinite;
+        animation: shiny-btn1 2s ease-in-out infinite;
     }
 
     & > a > button:hover {
@@ -58,7 +57,7 @@ export const Wrapper = styled.div`
     }
 
     & > a > button:active {
-        box-shadow: 4px 4px 6px 0 rgba(255,255,255,.3), -4px -4px 6px 0 rgba(116, 125, 136, .2), inset -4px -4px 6px 0 rgba(255,255,255,.2), inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+        box-shadow: 3px 3px 6px 0 rgba(255,255,255,.3), -3px -3px 6px 0 rgba(116,125,136,.2), inset -4px -4px 6px 0 rgba(255,255,255,.2), inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
     }
 
     @keyframes shiny-btn1 {
