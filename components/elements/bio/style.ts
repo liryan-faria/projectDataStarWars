@@ -47,9 +47,8 @@ export const Wrapper = styled.div`
     & > a > button::before {
         content: ' ';
         display: inline-block;
-        top: -50px;
         width: 5px;
-        height: 70%;
+        height: 50%;
         background-color: rgb(248 248 255);
         animation: shiny-btn1 2.5s ease-in-out infinite;
     }
