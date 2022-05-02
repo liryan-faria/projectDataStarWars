@@ -8,6 +8,7 @@ import { Species } from '../../components/elements/menu/species/species'
 import { Starships } from '../../components/elements/menu/starships/starships'
 
 
+
 const Home: NextPage = () => {
   return (
     <>

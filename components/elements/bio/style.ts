@@ -19,7 +19,6 @@ export const Wrapper = styled.div`
 
     & > a > button {
         border: none;
-        margin: 50px;
         cursor: pointer;
                 
         width: 155px;
@@ -93,18 +92,18 @@ export const Wrapper = styled.div`
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin: 15px;
+        margin: 20px;
         margin-top: 150px;
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     .segundoTexto {
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin: 15px;
+        margin: 20px;
         margin-top: 35px;
-        margin-bottom: 50px;
+        margin-bottom: 150px;
         font-size: 1.3rem;
     }
 

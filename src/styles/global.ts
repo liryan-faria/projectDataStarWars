@@ -34,13 +34,14 @@ const GlobalStyles = createGlobalStyle`
     }
 
     :root {
-        --area-bloco-altura: 350px;
-        --area-bloco-largura: 350px;
+        --area-bloco-altura: 360px;
+        --area-bloco-largura: 450px;
         --cor-fundo-pagina: rgb(90 90 90);
         --cor-logo-footer: rgb(65 65 65);
         --cor-bloco-escuro: rgb(50 50 50);
         --cor-bloco-claro: rgb(135 135 135);
         --cor-letras: rgb(230 230 230);
+        --cor-botao: rgb(120 120 120);
     }
 
 
