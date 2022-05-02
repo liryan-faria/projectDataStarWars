@@ -21,4 +21,8 @@ export const Wrapper = styled.footer`
 
     }
 
+    & > a > span > svg {
+        margin-top: 3px;
+    }
+
 `

@@ -21,10 +21,10 @@ export const Wrapper = styled.div`
         border: none;
         cursor: pointer;
                 
-        width: 155px;
-        height: 50px;
+        width: 120px;
+        height: 40px;
         border-radius: 5px;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         font-family: 'Cormorant Garamond', serif;
         background: var(--cor-bloco-claro);
         background: linear-gradient(0deg, rgba(135,135,135,1) 10%, rgba(230,230,230,1) 100%);
@@ -49,7 +49,7 @@ export const Wrapper = styled.div`
         width: 5px;
         height: 50%;
         background-color: rgb(248 248 255);
-        animation: shiny-btn1 2s ease-in-out infinite;
+        animation: shiny-btn1 2.5s ease-in-out infinite;
     }
 
     & > a > button:hover {
@@ -86,23 +86,39 @@ export const Wrapper = styled.div`
 
     }
 
+    .caixaTextos {
+        display: flex;
+        flex-direction: row;
+        
+        margin-top: 150px;
+        margin-bottom: 50px;
+        padding: 5px;
+    }
+
     .primeiroTexto {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         text-align: center;
-        margin: 20px;
-        margin-top: 150px;
-        font-size: 1.7rem;
+        margin: 5px;
+        padding: 3px;
+        width: var(--area-bloco-largura);
+        height: var(--area-bloco-altura);
+        background: var(--cor-bloco-escuro);
+        font-size: 1.5rem;
     }
 
     .segundoTexto {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         text-align: center;
-        margin: 20px;
-        margin-top: 35px;
-        margin-bottom: 150px;
-        font-size: 1.3rem;
+        margin: 5px;
+        padding: 3px;
+        width: var(--area-bloco-largura);
+        height: var(--area-bloco-altura);
+        background: var(--cor-bloco-claro);
+        font-size: 1rem;
     }
 
 
