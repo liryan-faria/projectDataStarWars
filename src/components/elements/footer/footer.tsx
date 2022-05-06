@@ -7,7 +7,7 @@ export const Footer = () => {
     
     return (
         <Wrapper>
-            <a href="/bio/bio">
+            <a href="/bio">
                 <span>Desenvolvido com <AiOutlineHeart /> por Líryan Faria </span>
             </a>
         </Wrapper>
